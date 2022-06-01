@@ -1,0 +1,158 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#1b203d;
+	overflow: hidden;
+	font-family: system-ui;
+}
+.clearfix{
+	clear: both;
+}
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.logo span{
+	color: #f7403b;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #272c4a;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color:#1b203d;
+}
+.sidenav{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 280px;
+  
+}
+.head{
+	padding:20px;
+}
+.col-div-6{
+	width: 50%;
+	float: left;
+}
+.profile{
+	display: inline-block;
+	float: right;
+	width: 160px;
+}
+.pro-img{
+	float: left;
+	width: 40px;
+	margin-top: 5px;
+}
+.profile p{
+	color: white;
+	font-weight: 500;
+	margin-left: 55px;
+	margin-top: 10px;
+	font-size: 13.5px;
+}
+.profile p span{
+	font-weight: 400;
+    font-size: 12px;
+    display: block;
+    color: #8e8b8b;
+}
+
+
+
+
+.col-div-8{
+	width: 70%;
+	float: middle;
+}
+
+.content-box{
+	padding:10px;
+
+ 
+}
+.content-box p{
+	margin: 0px;
+    font-size: 20px;
+    color: #f7403b;
+}
+.content-box p span{
+	float: right;
+    background-color: #ddd;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+.box-8{
+	width: 130%;
+	background-color: #272c4a;
+	height: 60%;
+	
+}
+
+
+.box-8{
+	margin-left: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+td, th , tr {
+  text-align: left;
+  padding:15px;
+  color: #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(126deg);
+  }
+}
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
