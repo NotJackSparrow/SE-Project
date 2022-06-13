@@ -1,0 +1,71 @@
+<!Doctype HTML>
+	<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="Inventory.css" type="text/css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+
+	<body>
+		
+		<div id="mySidenav" class="sidenav">
+		<p class="logo">Smart Stock</p>
+	  <a href="Dashboard.html" class="icon-a"><i class="fa fa-dashboard icons"></i>   Dashboard</a>
+	  <a href="#"class="icon-a"><i class="fa fa-users icons"></i>   Inventory</a>
+	  <a href="Sales.html"class="icon-a"><i class="fa fa-shopping-bag icons"></i>   Sales</a>
+	  <a href="index.html"class="icon-a"><i class="fa fa-tasks icons"></i>   Billing</a>
+
+
+	</div>
+	<div id="main">
+
+		<div class="head">
+			<div class="col-div-6">
+	<span style="font-size:30px;cursor:pointer; color: black;" class="nav"  >☰ Inventory</span>
+	<span style="font-size:30px;cursor:pointer; color: black;" class="nav2"  >☰ Inventory</span>
+	</div>
+    
+	<div class="table">
+        <div class="content-table">
+        <table class="">
+          <thead>
+            <tr>
+              <th>Item No</th>
+              <th>Item Name</th>
+              <th>Item Barcode</th>
+              <th>Quantity</th>
+              <th>Price/Item</th>
+            </tr>
+          </thead>
+          <tbody>
+                <tr>
+                  <td>  </td>
+                  <td>  </td>
+                  <td>  </td>
+                  <td>  </td>
+                  <td>  </td>
+                </tr> 
+          </tbody>
+        </table>
+        <form class="content-table" action="/inventory" method="POST">
+          <input type="number" name="newNum" placeholder="Item Number" autocomplete="off">
+          <input type="text" name="newItem" placeholder="Item Name" autocomplete="off">
+          <input type="text" name="newBarcode" placeholder="Barcode" autocomplete="off">
+          <input type="number" name="newQuantity" placeholder="Quantity" autocomplete="off">
+          <input type="number" name="newPrice" placeholder="Price" autocomplete="off">
+          <button type="submit" name="addItem">ADD</button>
+        </form>  
+      </div>
+      </div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+
+	</script>
+
+	</body>
+
+
+	</html>
